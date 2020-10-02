@@ -1,0 +1,11 @@
+{
+  "name": "connecting_db_with_nodejs",
+  "version": "1.0.0",
+  "description": "Learning how to connect database in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Mukul",
+  "license": "ISC"
+}
