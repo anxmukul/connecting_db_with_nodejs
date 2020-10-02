@@ -1,14 +1,24 @@
 {
-  "name": "connecting_db_with_nodejs",
+  "name": "inserting_in_database",
   "version": "1.0.0",
   "description": "Learning how to connect database in nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "start2": "node index2.js"
   },
   "author": "Mukul",
   "license": "ISC",
   "dependencies": {
     "mysql": "^2.18.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anxmukul/connecting_db_with_nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anxmukul/connecting_db_with_nodejs/issues"
+  },
+  "homepage": "https://github.com/anxmukul/connecting_db_with_nodejs#readme"
 }
