@@ -29,7 +29,7 @@ con.connect(function(err){
     }
     else{
         console.log("Connected");
-        for(var n = 1; n<= 100; n++){
+        for(var n = 1; n<= 10; n++){
             if(prime(n)){
                 //string interpolation
                 var sql = `insert into prime_number values (${n}, 'YES')`
@@ -39,7 +39,6 @@ con.connect(function(err){
             }
             con.query(sql, myFunction);
             
-        }
-        //con.query(sql, myFunction);    
+        }    
     }
 })
