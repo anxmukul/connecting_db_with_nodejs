@@ -4,15 +4,16 @@
   "description": "Learning how to connect database in nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "start2": "node index2.js"
+    "start": "node index3.js",
+    "start2": "node index2.js",
+    "start3": "node index.js"
   },
   "author": "Mukul",
   "license": "ISC",
   "dependencies": {
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "pg": "^8.7.1"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anxmukul/connecting_db_with_nodejs.git"
